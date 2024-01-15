@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #3a6;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50vh;
+  height: 40vh;
+  background: #fff;
+  border-radius: 16px;
+  text-align: center;
+  min-height: 220px;
+  min-width: 700;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,.4);
+}
+#title{
+  color: #3a6;
+  font-size: 1.2em;
+  font-weight:700;
+  margin-top: -10%;
+  letter-spacing: 5px;
+}
+input{
+ background: white;
+ border-radius: 16px;
+ height: 5vh;
+ width: 25vh;
+ border: 2px solid orange;
+ margin-top: 20px;
+min-height: 25px;
+min-width: 200px;
+}
+
+#signup{
+  font-size: 30px;
+  border-radius: 12px;
+  background-color: blue;
+  color: white;
+  margin-top: 15px;
+}

@@ -1,0 +1,56 @@
+body{
+  
+}
+#second{
+  position: relative;
+  display:inline-block;
+
+}
+#me{
+  position: relative;
+  text-align: right;
+}
+#view{
+  display: inline-flex;
+}
+#contact{
+  
+  height: auto;
+  width: 200px;
+   border-radius: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,.4);
+  margin-right: 10px;
+
+}
+#button{
+  padding: 10px;
+  border-radius: 12px;
+}
+#today{
+ list-style-type: none;
+ border: 1px solid black;
+ height: auto;
+ width: 250px;  
+ padding: 10px; 
+ border-radius: 25px;
+}
+#project{
+  padding: 10px;
+}
+#click{
+  border: 1px solid black;
+  width: 100px;
+  height: auto;
+}
+ul li{
+  margin-bottom: 50px;
+}
+#ton{
+  border:transparent;
+  background-color: transparent;
+}
+#ton img{
+
+}

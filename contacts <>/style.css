@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+
+
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Quicksend', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 50px 1fr 1px;
+gap: 10px;
+padding: 10px;
+box-sizing:content-box;
+  }
+  .container div{
+    padding: 10px;
+    
+  }
+  .header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: left;
+    color: blue;
+  }
+.first{
+    grid-column-start: 1;
+    grid-column-end:1;
+    padding: 10px;
+    gap: 10px;
+  }
+.second{
+
+}
+.third{
+    grid-column-end: span3;
+}
+.buto{
+  border-color: 1px solid green;
+  border-radius: 12px;
+}
+.contact {
+border: 3px solid green;
+}
+#cont{
+  height: 200px;
+  width: 100px;
+}
+.lis{
+  list-style-type: none;  
+  font-weight:lighter;
+}
+ul li {
+  margin-bottom: 15px;
+}
